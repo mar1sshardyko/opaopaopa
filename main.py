@@ -29,3 +29,12 @@ class Human:
               pass
          def live(self):
               pass
+         class Auto:
+              def __init__(self, brand_list):
+                   self.brand = random.choice(list(brand_list))
+                   self.fuel = brand_list[self.brand]["fuel"]
+                   self.strenght = brand_list[self.brand]["strenghth"]
+                   self.cosumption = brand_list[self.brand]["cosumption"]
+                   brands_of_cars = {"тазiк": {"fuel":2, "streght":180, "cosumption":6 },
+                                                 "корито": {"fuel": 4, "streght": 220, "cosumption": 8},
+                                                 "капiбара": {"fuel":999, "streght":999, "cosumption":999 }}
