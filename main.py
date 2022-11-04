@@ -1,19 +1,19 @@
 import random
-class Human:
-    def __init__(self, name = "Maris" , job = None , home = None , car = None) :
+class Shadowfiend:
+    def __init__(self, name = "Shadowfiend" , shadowraze = None , souls = None , ult = None) :
          self.name = name
-         self.job = job
-         self.home = home
-         self.car = car
+         self.shadowraze = shadowraze
+         self.souls = souls
+         self.ult = ult
          self.gladness = 50
          self.stiety = 50
-         def get_home(self):
+         def get_souls(self):
               pass
-         def get_car(self):
+         def get_ult(self):
               pass
-         def get_job(self):
+         def get_shadowraze(self):
               pass
-         def get_home(self):
+         def get_souls(self):
               pass
          def eat(self):
               pass
@@ -21,7 +21,7 @@ class Human:
               pass
          def shopping(self):
               pass
-         def clear_home(self):
+         def eat_souls(self):
               pass
          def  day_indexes(self):
               pass
@@ -29,12 +29,12 @@ class Human:
               pass
          def live(self):
               pass
-         class Auto:
+         class Ultimate:
               def __init__(self, brand_list):
                    self.brand = random.choice(list(brand_list))
-                   self.fuel = brand_list[self.brand]["fuel"]
-                   self.strenght = brand_list[self.brand]["strenghth"]
-                   self.cosumption = brand_list[self.brand]["cosumption"]
-                   brands_of_cars = {"тазiк": {"fuel":2, "streght":180, "cosumption":6 },
-                                                 "корито": {"fuel": 4, "streght": 220, "cosumption": 8},
-                                                 "капiбара": {"fuel":999, "streght":999, "cosumption":999 }}
+                   self.fuel = brand_list[self.brand]["damage"]
+                   self.strenght = brand_list[self.brand]["soulsaway"]
+                   self.cosumption = brand_list[self.brand]["strah"]
+                   brands_of_cars = {"1soulult": {"damage":55, "soulsaway":1, "cosumption":55 },
+                                                 "15soulult": {"damage": 111, "soulsaway": 15, "cosumption": 111},
+                                                 "soulofcapybara": {"damage":999, "soulsaway":999, "cosumption":999 }}
